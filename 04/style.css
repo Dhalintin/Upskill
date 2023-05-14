@@ -1,0 +1,137 @@
+body {
+    height: 100%;
+    align-content: center;
+    margin: 0 1%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+.nav {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 2%;
+    box-shadow: 5px 5px rgb(250, 250, 250);
+}
+
+.nav div {
+    position: relative;
+    border-bottom: 2px;
+    display: inline;
+    padding-left: 4%;
+    padding-right: 5%;
+    align-content: center;
+}
+
+.heading {
+    padding-top: 11%;
+}
+
+.title {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.logo {
+    height: 20px;
+    width: 160px;
+}
+
+.menu-option div{
+    border-bottom: 2px;
+    display: inline;
+    padding-right: 10px;
+}
+
+button {
+    border: 1px solid rgb(42, 212, 46);
+    border-radius: 5px;
+    background-color: white;
+    padding: 18px 28px;
+    color: rgb(42, 212, 46);
+    margin-right: 12px;
+}
+
+.demo {
+    background-color: rgb(42, 212, 46);
+    color: white;
+}
+
+.dropdown:hover  {
+    border: 1px solid black;
+    padding: 0.5px;
+}
+
+.intro {
+    text-align: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 25%;
+}
+
+.logos {
+    padding-left: 10%;
+}
+
+.cplogo {
+    height: 80px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 18%;
+    background-color: rgb(250, 250, 250);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.clientel p, .clientel h2 {
+    text-align: center;
+}
+
+.info {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.about {
+    background-color: black;
+    color: rgb(250, 250, 250);
+    padding-top: 30px;
+    padding-left: 8%;
+}
+
+.about .header{
+   margin-right: 30%;
+}
+
+.x1 {
+    display: inline;
+ }
+
+.about span {
+    padding-right: 50opx;
+}
+
+.perks {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    table-layout: fixed;
+    font-size: larger;
+}
+.perks td {
+   padding-right: 50px;
+}
+.perks img {
+    height: 700px;
+    width: 600px;
+}
+.bottom-bt {
+    padding-left: 50%;
+    margin-bottom: 20px;
+}
